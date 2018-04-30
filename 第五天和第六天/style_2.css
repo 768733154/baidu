@@ -1,0 +1,31 @@
+.category{
+    font-size:25px;
+    font-weight:bold;    
+}
+.list{
+    margin:0px;
+    font-weight:bold;
+}
+.list_1{
+    margin:0px;
+}
+.resume{
+    width:30%;
+    color:#ffffff;
+    background-color:aquamarine;
+    height:820px;
+    float:left;
+}
+.H1{
+    
+    padding:10px;
+    font-size:55px;
+    font-weight:bold;
+}
+.Content{
+    width:65%;
+    
+    float:right;
+    height:820px;
+    
+}

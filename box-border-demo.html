@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="keyworlds" content=""/>
+        <meta/ name="discription" content="">
+        <title>盒模型练习</title>
+        <style>
+            .box{
+                width:50%;
+                height:100px;
+                background-color:aqua;
+                margin-left:auto;
+                margin-right:auto;
+                margin-top:50px;
+            }
+            #box1{
+                border: 5px solid blueviolet;
+            }
+            #box2{
+                border:10px solid rgba(16, 173, 11, 0.74);
+                border-radius:30px 0px 30px 0px;
+                
+            }
+            #box3{
+            width:50%;
+			
+			background-color: cornflowerblue;
+            margin-top:0px;
+            margin-left:auto;
+            margin-right:auto;
+            }
+            #box33{
+                width:80%;
+                height:20px;
+                background-color:chocolate;
+                /*margin-bottom:50px;*/
+                margin:20px auto 50px auto;
+            }
+            #box333{
+                height:100px;
+                width:100%;
+                /*margin-top:10px;
+                margin-bottom:10px;*/
+                margin:10px auto 10px auto;
+            }
+            #box3333{
+                width:80%;
+                height:20px;
+                background-color:chartreuse;
+                /*margin-top:20px;*/
+                margin:50px auto 0px auto;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div id="box0" class="box">我是一个你看不到边框的盒子</div>
+        <div id="box1" class="box">我是一个可以看见边框的盒子</div>
+        <div id="box2" class="box">我是一个比上面好看的盒子</div>
+        <div id="box3" >
+            
+            <div id="box33">我距离上面20px,离下面50px</div>
+            <div id="box333">
+                我距离上下两个盒子各10px。<br/>
+                盒模型外边距塌陷，外边距取两者之间最大值，
+                而不是两者之和。<br/>
+                我们三个中间相隔实际距离为50px。
+            </div>
+             <div id="box3333">我距离上面50px</div>           
+        </div>
+    </body>
+</html>

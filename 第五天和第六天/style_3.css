@@ -1,0 +1,55 @@
+.Content{
+    width:100%;
+    height:405px;
+}
+.category{
+    font-size:18px;
+    font-weight:bold;
+        
+}
+.category_1{
+    width:100%;
+    height:80px;
+    min-width:500px;
+}
+
+.list{
+    font-weight:bold;
+}
+.resume{
+    width:100%;
+    background-color:gray;
+    height:50px;
+    min-width:500px;
+}
+.H1{
+    height:30px;
+    font-size:18px;
+    font-weight:bold;
+    padding-top:10px;
+    padding-left:30px;
+}
+.Text{
+    display:inline-block;
+    
+}
+.category_left{
+    width:20%;
+    height:80px;
+    background-color:cyan;
+    float:left;
+    text-align:center;
+    border-bottom:1px solid white;
+}
+.category_right{
+    width:79%;
+    height:75px;
+    background-color:slateblue;
+    float:right;
+    border-bottom:1px solid white;
+    padding:5px 0 0 5px;
+}
+.list_1{
+    display:inline-block;
+    margin:0px;
+}
